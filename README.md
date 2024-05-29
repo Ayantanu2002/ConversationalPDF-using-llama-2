@@ -31,17 +31,18 @@ To set up the project on your local machine, follow these steps:
    mkdir models
    mkdir vector
 4. Your directory structure should now look like this:
+```
 /path/to/PDF-Chatbot/
 ├── books/
 ├── models/
 ├── my-react-app/
 ├── upload_chatmodel.py
 └── vector/
+```
 
+6. You can now start using the project. Place PDFs or textual documents in the `books` directory, trained models in the `models` directory, and vector representations in the `vector` directory.
 
-5. You can now start using the project. Place PDFs or textual documents in the `books` directory, trained models in the `models` directory, and vector representations in the `vector` directory.
-
-6.
+7.
 - To train and deploy the chatbot, follow the instructions provided in the respective directories.
 - The `my-react-app` directory contains the frontend code for interacting with the chatbot.
 - Use `upload_chatmodel.py` to upload trained chatbot models to the repository.
