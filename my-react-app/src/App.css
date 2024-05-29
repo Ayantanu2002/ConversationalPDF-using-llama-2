@@ -1,0 +1,163 @@
+/* Body */
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto", sans-serif; /* Default font family */
+  background-color: #8a8a8a; /* Light gray background */
+}
+
+
+
+/* App container */
+.App {
+  margin: auto;
+  max-width: 900px;
+  padding: 40px;
+  background-color: #171d2a; /* White background */
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); /* Soft shadow effect */
+}
+
+/* Welcome message */
+.welcome-message {
+  margin-bottom: 20px;
+  font-family: "Arial", sans-serif; /* Updated font family */
+  color: #f0f0f0;
+}
+
+
+
+
+.upload-section button{
+  background-color: #545c8f;
+  color: #262323;
+  padding: 10px 10px;
+  border-radius: 8px;
+  font-weight: 600;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+  margin: 9px;
+}
+
+
+/* Logout button */
+.logout-button {
+  position: absolute;
+  top: 20px;
+  right: 20px;
+  font-size: 20px;
+  padding: 15px 30px;
+  background-color: #000000;
+  color: #ffffff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Arial", sans-serif; /* Updated font family */
+}
+
+/* Upload section */
+.upload-section {
+  margin-bottom: 30px;
+  padding: 20px;
+  background-color: rgb(201, 191, 230);
+}
+
+/* PDF file list */
+.upload-section ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+.upload-section li {
+  margin-bottom: 10px;
+}
+
+.chat-section {
+  margin-bottom: 160px;
+  align-self: flex-start; /* Align chat section to the left */
+  order: -1; /* Move chat section to the beginning of the flex container */
+  color:rgb(96, 173, 224)
+}
+
+.chat-section button{
+  background-color: #e99ff9;
+  padding: 10px;
+  color: #000000;
+  font-weight: 800;
+}
+
+.chat-section ul li p{
+  color: #8addce;
+  /* font-style:italic; */
+  font-family:'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif
+}
+
+
+
+/* Chat history list */
+.chat-section ul {
+  list-style-type: none;
+  padding: 0;
+  text-align: left; /* Align chat history to the left */
+}
+
+.chat-section li {
+  margin-bottom: 20px;
+}
+
+/* Quota section */
+.quota-section {
+  display: flex;
+  align-items: center;
+  margin-bottom: 30px;
+}
+
+.quota-section .quota {
+  margin-right: 20px;
+  padding: 20px;
+  background-color: mediumaquamarine;
+}
+
+.quota-section .input-container {
+  flex-grow: 1;
+  
+}
+
+.input-container{
+  color: wheat;
+}
+
+/* Question input */
+.input-container input {
+  width: 100%;
+  padding: 6px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+/* Button container */
+.button-container {
+  margin-top: 10px;
+}
+
+.button-container button {
+  padding: 10px 20px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+  font-family: "Arial", sans-serif; /* Updated font family */
+}
+
+/* Loading message */
+.button-container p {
+  margin: 10px 0;
+  font-style: italic;
+  color: rgb(96, 206, 214);
+}
+
+/* Answer display */
+.button-container p:last-child {
+  font-weight: bold;
+}
