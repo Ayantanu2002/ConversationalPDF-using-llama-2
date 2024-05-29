@@ -33,7 +33,7 @@ To set up the project on your local machine, follow these steps:
 4. Your directory structure should now look like this:
 /path/to/PDF-Chatbot/
 ├── books/
-├── models/
+├── models/your_model_will_be_here
 ├── my-react-app/
 ├── upload_chatmodel.py
 └── vector/
