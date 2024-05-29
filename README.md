@@ -12,7 +12,7 @@ The project directory is structured as follows:
 
 - **books:** This directory is intended for storing PDFs or any textual documents related to the project.
   
-- **models:** This directory is intended for storing trained machine learning models or pre-trained embeddings. You can get the model from https://www.kaggle.com/datasets/rodrigostallsikora/llama-2-7b-chat-ggmlv3-q8-0-bin. Download the model, please. I am not providing the model. Below I will describe what the directory looks like.
+- **models:** This directory is intended for storing trained machine learning models or pre-trained embeddings. You can get the model from ```https://www.kaggle.com/datasets/rodrigostallsikora/llama-2-7b-chat-ggmlv3-q8-0-bin```. Download the model, please. I am not providing the model. Below I will describe what the directory looks like.
   
 - **vector:** This directory is intended for storing vector representations of data, such as word embeddings or other numerical representations.
   
