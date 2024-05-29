@@ -8,8 +8,8 @@ This project aims to create a chatbot capable of processing and providing inform
 ```
 CREATE TABLE books (     id INT AUTO_INCREMENT PRIMARY KEY,     book_path VARCHAR(255),     vector_path VARCHAR(255) );
 ```
-``` CREATE TABLE history (     id INT PRIMARY KEY,     question VARCHAR(255)
-NOT NULL,     answer VARCHAR(255) NOT NULL );
+```
+CREATE TABLE history (     id INT PRIMARY KEY,     question VARCHAR(255) NOT NULL,     answer VARCHAR(255) NOT NULL );
 ```
 
 
