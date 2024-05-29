@@ -1,6 +1,6 @@
 # PDF Chatbot Project
 
-Welcome to the PDF Chatbot project! This repository contains code and resources for building and deploying a chatbot capable of interacting with PDF documents. This project is created using llama-2-7b-chat.ggmlv3.q8_0 model. For frontend I used React Js for backend i used python flask server.
+Welcome to the PDF Chatbot project! This repository contains code and resources for building and deploying a chatbot capable of interacting with PDF documents. This project is created using llama-2-7b-chat.ggmlv3.q8_0 model. For frontend i used React Js for backend i used python flask server.
 
 ## Project Overview
 
