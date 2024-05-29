@@ -4,7 +4,7 @@ Welcome to the PDF Chatbot project! This repository contains code and resources 
 
 ## Project Overview
 
-This project aims to create a chatbot capable of processing and providing information from PDF documents. The chatbot utilizes natural language processing techniques to understand user queries and extract relevant information from PDF files. Here You can also see the search history. The quota functionality is also available in this project. I am using the MySQL database for storing history and books. 
+This project aims to create a chatbot capable of processing and providing information from PDF documents. The chatbot utilizes natural language processing techniques to understand user queries and extract relevant information from PDF files. Here You can also see the search history. The quota functionality is also available in this project. I am using the MySQL database for storing chat_history and books. 
 ```
 CREATE TABLE books (     id INT AUTO_INCREMENT PRIMARY KEY,     book_path VARCHAR(255),     vector_path VARCHAR(255) );
 ```
