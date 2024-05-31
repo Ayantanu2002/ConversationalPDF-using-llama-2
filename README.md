@@ -86,8 +86,9 @@ npm start
 ```
 
 ## Demo
-![Image Description](relative/path/to/your/img1.png)
+![img1](https://github.com/Ayantanu2002/ConversationalPDF/assets/90440437/06a83080-8ece-47e2-85fc-f9f4298d3e53)
 
+![img2](https://github.com/Ayantanu2002/ConversationalPDF/assets/90440437/b11b5605-b144-47ce-93e8-96a24a4b7d80)
 
 
 
