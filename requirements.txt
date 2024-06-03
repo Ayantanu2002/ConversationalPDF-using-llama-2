@@ -1,0 +1,5 @@
+flask==2.0.2
+mysql-connector-python==8.0.28
+flask-cors==3.0.10
+langchain-community==0.3.2
+sentence-transformers==2.1.0
